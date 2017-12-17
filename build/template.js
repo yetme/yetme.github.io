@@ -1,3 +1,6 @@
+const author = '歲歲無終🌟'
+const keywords = '歲歲無終🌟'
+const desc = '賦落花詩'
 exports.getPostTemplate = function getHtml (data) {
   return `<!DOCTYPE html>
 <html lang="en">
@@ -8,9 +11,9 @@ exports.getPostTemplate = function getHtml (data) {
   <link rel="shortcut icon" href="../images/avatar.jpeg" type="image/x-icon" />
   <meta name='viewport' content = 'width = device-width, initial-scale = 1.0, user-scalable = no'>
   <meta property="wb:webmaster" content="5b98c97d88ede355" />
-  <meta name="author" content="歲歲無終🌟" />
-  <meta name="keywords" content="歲歲無終🌟" />
-  <meta name="description" content="賦落花詩" />
+  <meta name="author" content="${author}" />
+  <meta name="keywords" content="${keywords}" />
+  <meta name="description" content="${desc}" />
   <style type="text/css">
     body {
       text-align: center;
@@ -49,14 +52,14 @@ exports.getTrouble = function getTroubleIndex (content) {
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>我的心事</title>
+  <title>${desc}</title>
   <link rel="stylesheet" href="./stylesheets/index.css" />
   <link rel="shortcut icon" href="./images/avatar.jpeg" type="image/x-icon" />
   <meta name='viewport' content = 'width = device-width, initial-scale = 1.0, user-scalable = no'>
   <meta property="wb:webmaster" content="5b98c97d88ede355" />
-  <meta name="author" content="歲歲無終🌟"" />
-  <meta name="keywords" content="歲歲無終🌟"" />
-  <meta name="description" content="賦落花詩" />
+  <meta name="author" content="${author}"" />
+  <meta name="keywords" content="${keywords}"" />
+  <meta name="description" content="${desc}" />
   <style type="text/css">
     body {
       text-align: center;
